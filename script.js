@@ -25,7 +25,7 @@ function countDown(){
 
     
     if(totalSeconds < 0){
-        Title.innerHTML = "Time Expired";
+        Title.innerHTML = "Time has Expired";
         daysEl.innerHTML = "0";
         hoursEl.innerHTML = "00";
         minsEl.innerHTML = "00";
